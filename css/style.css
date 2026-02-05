@@ -382,15 +382,3 @@ body {
 
 /* =============================
     MEDIA
-============================= */
-@media(max-width:768px) {
-    .nav {
-        display: none;
-    }
-
-    /* для простоти */
-    .categories__container,
-    .product-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-}
