@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адмін-панель - SeedShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">🌱 SeedShop</a>
+        </div>
+    </header>
+
+    <main class="admin-container container">
+        <h2>Адмін-панель</h2>
+        <div class="admin-add">
+            <button onclick="addProduct()">Додати товар</button>
+        </div>
+        <table class="admin-table" id="admin-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Назва</th>
+                    <th>Категорія</th>
+                    <th>Ціна</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- JS заповнить таблицю -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>© 2026 SeedShop. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

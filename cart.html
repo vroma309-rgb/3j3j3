@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - SeedShop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">🌱 SeedShop</a>
+            <nav class="nav">
+                <a href="category.html?cat=vegetables">Овочі</a>
+                <a href="category.html?cat=flowers">Квіти</a>
+                <a href="category.html?cat=greens">Зелень</a>
+                <a href="category.html?cat=berries">Ягоди</a>
+                <a href="cart.html" class="cart-link">Корзина 🛒</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CART -->
+    <main class="container">
+        <h2>Ваша корзина</h2>
+        <div class="cart-container">
+            <!-- JS вставить товари -->
+        </div>
+
+        <div class="cart-order">
+            <input type="text" id="phone" placeholder="Ваш телефон">
+            <button onclick="sendOrder()">Замовити</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>© 2026 SeedShop. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

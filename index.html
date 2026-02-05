@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeedShop - Насіння рослин</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">🌱 SeedShop</a>
+            <nav class="nav">
+                <a href="category.html?cat=vegetables">Овочі</a>
+                <a href="category.html?cat=flowers">Квіти</a>
+                <a href="category.html?cat=greens">Зелень</a>
+                <a href="category.html?cat=berries">Ягоди</a>
+                <a href="cart.html" class="cart-link">Корзина 🛒</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO-BLOCK -->
+    <section class="hero">
+        <div class="container hero__container">
+            <h1>Насіння для вашого саду</h1>
+            <p>Свіже, органічне та надійне насіння для всіх рослин</p>
+            <a href="category.html" class="btn btn-primary">Переглянути товари</a>
+        </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="category-card" onclick="window.location='category.html?cat=vegetables'">
+                <img src="assets/images/vegetables.jpg" alt="Овочі">
+                <h3>Овочі</h3>
+            </div>
+            <div class="category-card" onclick="window.location='category.html?cat=flowers'">
+                <img src="assets/images/flowers.jpg" alt="Квіти">
+                <h3>Квіти</h3>
+            </div>
+            <div class="category-card" onclick="window.location='category.html?cat=greens'">
+                <img src="assets/images/greens.jpg" alt="Зелень">
+                <h3>Зелень</h3>
+            </div>
+            <div class="category-card" onclick="window.location='category.html?cat=berries'">
+                <img src="assets/images/berries.jpg" alt="Ягоди">
+                <h3>Ягоди</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>© 2026 SeedShop. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
